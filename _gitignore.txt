@@ -1,0 +1,31 @@
+# Слід ігнорувати папку .vs, де зберігаються налаштування користувача (VS 2017+)
+.vs/
+*.vspscc
+*.vssscc
+*.vsscc
+
+# Build and Output Folders
+[Dd]ebug/
+[Rr]elease/
+[Aa]rm/[Dd]ebug/
+[Aa]rm/[Rr]elease/
+[Aa]rm64/[Dd]ebug/
+[Aa]rm64/[Rr]elease/
+[Ii]telli[Ss]ense/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Tt]emp/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+
+# Visual Studio files
+*.[Pp]ublish/
+*.user
+*.suo
+*.sln.docstates
+*.resharper
+*.bak
